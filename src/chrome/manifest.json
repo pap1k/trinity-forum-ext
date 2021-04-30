@@ -1,0 +1,14 @@
+{
+  "name": "Trinity advanced forum",
+  "description": "Удаляет огромный мешающий слайдер с форума",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "48": "icons/trinity-48.png",
+    "96": "icons/trinity-96.png"
+  },
+  "background": {
+    "scripts": ["loader.js"]
+  },
+  "permissions": ["tabs", "https://gta-trinity.ru/*"]
+}

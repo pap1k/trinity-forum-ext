@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Trinity advanced forum",
+  "version": "0.0.1",
+
+  "description": "Удаляет огромный мешающий слайдер с форума",
+  "icons": {
+    "48": "icons/trinity-48.png",
+    "96": "icons/trinity-96.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "first@test.ru",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.gta-trinity.ru/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
